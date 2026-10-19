@@ -1,0 +1,19 @@
+# Virtual environments (Modern uv & standard layouts)
+.venv/
+venv/
+ENV/
+
+# Python caching & compilation
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (Crucial security)
+.env
+.env.*
+!.env.example
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
